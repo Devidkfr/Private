@@ -3163,9 +3163,10 @@ SelfESPStyle = SelfESP.NewPicker({
 })
 
 local ATConnect
-local ATMessages = {"Dying in a BLOCK game is sad","Why bother when AetherClient exists","LOL HOW DO YOU LOSE IN A BED GAME","AetherClient IS JUST BETTER","IVE NEVER LOST WITH AetherClient LOL"}
+local ATMessages = {"Dying in a BLOCK game is sad","Why bother when Privatev1 exists","LOL HOW DO YOU LOSE IN A BED GAME","Privatev1 IS JUST BETTER","IVE NEVER LOST WITH Privatev1 LOL"}
 Toxic = Misc.NewButton({
-	Name = "AutoToxic",
+	Name = "AutoToxic
+",
 	Function = function(callback)
 		if callback then
 			ATConnect = LocalPlayer.leaderstats:FindFirstChild("Kills").Changed:Connect(function()
